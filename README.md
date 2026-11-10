@@ -11,7 +11,7 @@
 
 <br>
 
-![Electromagnetic Simulator Preview](simulator-preview.png)
+![Electromagnetic Simulator Preview](Simulator_Preview.png)
 
 </div>
 
