@@ -149,7 +149,6 @@ The application separates its functionality into three main layers:
 - **3D Visualization:** `simulator-3d.html`, `crane-simulator.js`, and `crane-simulator.css` render and animate the electromagnetic crane using Three.js.
 
 The control panel communicates with the embedded 3D simulator through the browser's `postMessage` API.
-```
 
 ## Future Improvements
 
