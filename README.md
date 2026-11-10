@@ -156,13 +156,13 @@ The control panel communicates with the embedded 3D simulator through the browse
 
 ## Future Improvements
 
-- [ ] Organize the JavaScript and CSS into dedicated folders.
+- [x] Organize the JavaScript and CSS into dedicated folders.
 - [ ] Improve performance on mobile devices.
 - [ ] Add more detailed explanations of the simulation models.
 - [ ] Introduce configurable electromagnetic parameters.
 - [ ] Improve accessibility and keyboard navigation.
 - [ ] Add automated tests for simulation calculations.
-- [ ] Include a complete video demonstration.
+- [x] Include a complete video demonstration.
 - [ ] Expand the technical documentation.
 
 ## Demo Video
