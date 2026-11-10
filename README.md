@@ -167,7 +167,11 @@ The control panel communicates with the embedded 3D simulator through the browse
 
 ## Demo Video
 
-*A video demonstration will be added soon.*
+Watch a demonstration of the electromagnetic crane simulator, including its industrial control panel, 3D interactions, electromagnetic load handling, and physics telemetry.
+
+**[Watch or Download the Demo Video](https://github.com/waltdev16/Electromagnetic_Simulator/releases/tag/v1.0.0)**
+
+The demonstration is available in the **Assets** section of the v1.0.0 release.
 
 ## Project Context
 
