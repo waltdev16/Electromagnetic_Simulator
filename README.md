@@ -127,14 +127,28 @@ A modern browser with WebGL support and an internet connection to load the exter
 
 ```text
 Electromagnetic_Simulator/
-├── index.html            # Main page redirect
-├── electrogrua.html      # Educational website and control panel
-├── simulator-3d.html     # Standalone 3D simulator
-├── app.js                # Three.js crane simulation
-├── app1.js               # Control system and telemetry
-├── app2.js               # Website interactions
-├── style.css             # 3D simulator styles
-└── README.md             # Project documentation
+├── css/
+│   ├── crane-simulator.css   # 3D viewer styles
+│   └── electrogrua.css       # Educational website styles
+├── js/
+│   ├── crane-simulator.js    # Three.js crane and 3D interactions
+│   ├── control-panel.js      # Industrial controls and telemetry
+│   └── site-effects.js      # Navigation and visual effects
+├── index.html                # GitHub Pages entry point
+├── electrogrua.html          # Main educational application
+├── simulator-3d.html         # Standalone Three.js viewer
+└── README.md                 # Project documentation
+```
+
+### Architecture
+
+The application separates its functionality into three main layers:
+
+- **Presentation:** `electrogrua.html`, `electrogrua.css`, and `site-effects.js` provide the educational interface, navigation, and animations.
+- **Simulation Controls:** `control-panel.js` manages the industrial dashboard, user interactions, sound effects, and physics-based telemetry.
+- **3D Visualization:** `simulator-3d.html`, `crane-simulator.js`, and `crane-simulator.css` render and animate the electromagnetic crane using Three.js.
+
+The control panel communicates with the embedded 3D simulator through the browser's `postMessage` API.
 ```
 
 ## Future Improvements
