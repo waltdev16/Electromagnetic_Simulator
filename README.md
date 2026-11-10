@@ -9,6 +9,10 @@
 
 [Live Demo](https://waltdev16.github.io/Electromagnetic_Simulator/) · [Source Code](https://github.com/waltdev16/Electromagnetic_Simulator)
 
+<br>
+
+![Electromagnetic Simulator Preview](simulator-preview.png)
+
 </div>
 
 ---
